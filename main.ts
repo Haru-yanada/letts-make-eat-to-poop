@@ -1,6 +1,6 @@
 info.onCountdownEnd(function () {
+    info.changeLifeBy(-1)
     info.changeScoreBy(-1)
-    info.changeCountdownBy(4)
 })
 info.onScore(100, function () {
     game.setGameOverMessage(true, "goodjob")
@@ -144,6 +144,7 @@ info.onLifeZero(function () {
     game.gameOver(false)
 })
 let pizza: Sprite = null
+info.startCountdown(4)
 scene.setBackgroundColor(2)
 info.setLife(3)
 let mySprite = sprites.create(assets.image`うんち`, SpriteKind.Player)
