@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAADuAAAAAAAAAO4AAAAAAADg7g7uDgAAAO7u7u4OAAAA7u/u7g4AAODu7u7u7gAA7u7u7u/uAADu7u7u7+4A4O7u/u7v7gAAAODu7u/uAAAAAO7u7u4AAAAA7u7u7gAAAADu7u7uAAAAAO4O7g4AAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "うんち"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
