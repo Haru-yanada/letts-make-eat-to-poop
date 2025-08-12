@@ -1,6 +1,6 @@
 info.onCountdownEnd(function () {
-    info.changeCountdownBy(4)
     info.changeScoreBy(-1)
+    info.changeCountdownBy(4)
 })
 info.onScore(100, function () {
     game.setGameOverMessage(true, "goodjob")
